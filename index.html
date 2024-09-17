@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="cheatsheet icon.jpg" type="image/x-icon">
+    <title>CheatSheet - Template</title>
+    <link rel="stylesheet" href="1 style.css" />
+    <link rel="stylesheet" href="prism.css" />
+    <script src="prism.js"></script>
+  </head>
+  <body>
+    <div class="progressbar"></div>
+  
+    <nav>
+      <span class="logo"><img src="1 logo.png" alt="logo image" /> </span>
+      <div class="content-center">This HTML CheatSheet is For You !</div>
+    </nav>
+
+    <div class="container">
+      <ol>
+        <li>
+ Html Boilerplate Code.
+<pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+          </code>
+        </pre>
+        </li>
+
+        <li>
+Html ProgressBar code.
+<pre class="language-html"><code>
+&lt;body&gt;            
+&lt;div class="progressbar"&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+<b>CSS Of this code is given below.</b>
+         </code></pre>
+        </li>
+        <li>
+CSS Of ProgressBar.
+<pre class="language-css"><code>
+&lt;style&gt;
+.progressbar {
+height: 3px;
+background-color: blue;
+animation-name: load;
+animation-duration: 2s;
+}
+@keyframes load {
+0% {
+  width: 0%;
+}
+50% {
+  width: 50%;
+}
+100% {
+  width: 100%;
+}
+}
+&lt;/style&gt;
+       </code></pre>
+        </li>
+        <li>
+Html of Navigation Bar.
+<pre class="language-html"><code>
+&lt;body&gt;
+&lt;div class="progressBar"&gt;&lt;/div&gt;
+&lt;nav class="navigation"&gt;
+&lt;div class="nav-left"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/2 home.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="about"&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/2 contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="nav-right"&gt;
+&lt;form action="/2 search.html" method="get"&gt;
+&lt;input class="form-input" type="text" name="query" placeholder="Article Search" /&gt;
+&lt;button class="btn"&gt;Search&lt;/button&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;/nav&gt;
+&lt;div class="hr"&gt;&lt;hr /&gt;&lt;/div&gt;
+
+CSS of this code is giving below.
+     </code></pre>
+        </li>
+        <li>
+CSS of NavigationBar.
+<pre class="language-css"><code>
+
+&lt;style&gt;
+.navigation {
+height: 50px;
+width: 60vw;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 20px;
+}
+.nav-left {
+font-weight: bolder;
+display: flex;
+font-size: 30px;
+}
+.nav-left ul {
+list-style: none;
+display: flex;
+align-items: center;
+margin-left: 60px;
+}
+.nav-left ul li a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: 15px;
+}
+.nav-left ul li a:hover {
+color: rgb(17, 0, 255);
+}
+ul li {
+  margin: 0 9px;
+}
+.nav-right {
+  font-size: medium;
+}
+.form-input {
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 3px;
+  margin: 0 5px;
+  font-weight: 2px;
+}
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 1px 3px;
+  font-weight: bolder;
+  background: rgb(239, 213, 245);
+}
+.btn:hover {
+  color: white;
+  background: rgb(245, 2, 2);
+  transition: all 0.3s ease-in-out;
+}
+&lt;/style&gt;
+   </code></pre>
+        </li>
+        <li>
+Java Script Variable <u>Example.</u>
+          <pre class="language-js"><code>
+let number1 = 34;
+let number2 = 56;
+console.log(number1 + number2);
+ </code></pre>
+        </li>
+
+        <li>
+Java Script Date and Time Method.
+          <pre class="language-js"><code>
+let myDate = new Date();
+console.log(myDate);
+console.log(myDate.getTime());
+console.log(myDate.getFullYear());
+console.log(myDate.getMonth());
+console.log(myDate.getDay());
+console.log(myDate.getMinutes());
+console.log(myDate.getHours());
+
+
+ </code></pre>
+        </li>
+        <li>
+Java Script Arrow Function.
+          <pre class="language-js"><code>var i = 45;
+sum = (a, b) => {
+  return a + b;
+};
+ </code></pre>
+        </li>
+
+        <li>
+Contact Page Html Code.
+          <pre class="language-html"><code>
+&lt;body&gt;
+&lt;div class="progressBar"&gt;&lt;/div&gt;
+&lt;nav class="navigation"&gt;
+  &lt;div class="nav-left"&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;a href="/2 home.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="about"&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/2 contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="nav-right"&gt;
+&lt;form action="/search.html" method="get"&gt;
+&lt;input class="form-input" type="text" name="query" placeholder="Article Search" /&gt;
+&lt;button class="btn"&gt;Search&lt;/button&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+&lt;/div&gt; 
+&lt;div class="hr"&gt;
+&lt;hr&gt;
+&lt;/div&gt;
+
+&lt;div class="home-articles"&gt;
+&lt;h2&gt;Feel Free To Contact Us.&lt;/h2&gt;
+
+&lt;!-- form start --&gt;
+
+&lt;div class="contact-form"&gt;
+&lt;div class="form-box"&gt;
+&lt;input  type="text" placeholder="Enter Your First Name"&gt;
+&lt;/div&gt;
+&lt;div class="form-box"&gt;
+&lt;input  type="text" placeholder="Enter Your Last Name"&gt;
+&lt;/div&gt;
+&lt;div class="form-box"&gt;
+&lt;input  type="text" placeholder="Enter Your Phone No."&gt;
+&lt;/div&gt;
+&lt;div class="form-box"&gt;
+&lt;input  type="text" placeholder="Enter your G-mail"&gt;
+&lt;/div&gt;
+&lt;div class="form-button"&gt;
+&lt;a href="&lt;/2 button.html&gt;" class="button"&gt;Submit&lt;/button&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hr"&gt;
+&lt;hr&gt;
+&lt;/div&gt;
+
+
+&lt;!-- Address start. --&gt;
+
+&lt;div class="all-address"&gt;
+&lt;div class="contact"&gt;
+Phone No:📞 Enter your phone number.
+&lt;/div&gt;
+&lt;div class="g-mail"&gt;
+G-Mail  : Enter your g-mail.
+&lt;/div&gt;
+&lt;div class="insta"&gt;
+Instagram ID  :Enter you ID. 
+&lt;/div&gt;
+&lt;div class="address"&gt;
+Address  : Enter your address.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+</code></pre>
+</li>
+
+<li>
+CSS of the Contact Page.
+<pre class="language-css"><code>
+&lt;style&gt;
+.form-box {
+margin: 35px;
+border: 2px solid black;
+padding-left: 3px;
+border-radius: 6px;
+width: 16vw;
+}
+.form-button a {
+text-decoration: none;
+color: black;
+}
+
+.button {
+margin-left: 183px;
+margin-bottom: 15px;
+border: 2px solid black;
+border-radius: 6px;
+padding: 2px;
+background: rgb(247, 228, 247);
+font-weight: bolder;
+}
+.button:hover{
+background: red;
+color: white;
+transition:all 0.3s ease-in-out;
+}
+
+.all-address {
+margin-top: 20px;
+margin-bottom: 22px;
+font-weight: bolder;
+}
+.contact {
+margin: 5px;
+}
+.g-mail {
+margin: 5px;
+}
+.insta {
+margin: 5px;
+}
+.address {
+margin: 5px;
+}
+* {
+margin: 0;
+padding: 0;
+}
+.progressBar {
+height: 3px;
+margin-bottom: 1px;
+background-color: rgb(255, 119, 0);
+animation-name: loaded;
+animation-duration:2s;
+}
+@keyframes loaded {
+0% {
+width: 0%;
+}
+50% {
+width: 50%;
+}
+100% {
+width: 100%;
+}
+}
+.navigation {
+height: 50px;
+width: 60vw;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 20px;
+}
+.nav-left {
+font-weight: bolder;
+display: flex;
+font-size: 30px;
+}
+.nav-left ul {
+list-style: none;
+display: flex;
+align-items: center;
+margin-left: 60px;
+}
+.nav-left ul li a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: 15px;
+}
+.nav-left ul li a:hover {
+color: rgb(17, 0, 255);
+}
+ul li {
+margin: 0 9px;
+}
+.nav-right {
+font-size: medium;
+}
+.form-input {
+border: 2px solid black;
+border-radius: 7px;
+padding: 3px;
+margin: 0 5px;
+font-weight: 2px;
+}
+.btn {
+cursor: pointer;
+border: 2px solid black;
+border-radius: 5px;
+padding: 1px 3px;
+font-weight: bolder;
+background: rgb(239, 213, 245);
+}
+.btn:hover {
+color: white;
+background: rgb(245, 2, 2);
+transition: all 0.3s ease-in-out;
+}
+.content {
+display: flex;
+height: 230px;
+width: 60vw;
+margin: auto;
+margin-top: 40px;
+background-image: url(background.jpg);
+background-repeat: no-repeat;
+background-size: 800px;
+opacity: 5px;
+border-radius: 4px;
+}
+.content-left {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+width: 50%;
+margin-top: 30px;
+}
+.content-right {
+width: 50%;
+}
+
+.hr {
+margin-bottom: 28px;
+padding-top: 13px;
+width: 60vw;
+margin: auto;
+}
+.home-articles {
+width: 60vw;
+margin: auto;
+margin-top: 15px;
+background-color: rgb(243, 243, 237);
+}
+.home-article {
+display: flex;
+margin: 25px;
+}
+.home-article img {
+display: flex;
+width: 300px;
+}
+.home-article-content {
+align-self: center;
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+margin-left: 15px;
+}
+.home-article-content a {
+text-decoration: none;
+color: rgb(168, 60, 185);
+}
+
+&lt;/style&gt;
+</code></pre>
+</li>
+
+<li>
+HTML of the sticky Nav Bar.
+<pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+&lt;title&gt;Practice set chapter 5&lt;/title&gt;
+&lt;body&gt;
+&lt;header&gt;
+&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;Home&lt;/li&gt;
+&lt;li&gt;About&lt;/li&gt;
+&lt;li&gt;Contact&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/header&gt;
+&lt;div class="container"&gt;
+&lt;H1&gt;you are welcome on my websites.&lt;/H1&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</code>
+
+</pre>
+</li>
+<li>
+CSS of the sticky nav bar.
+<pre class="language-css"><code>
+*{
+padding: 0;
+margin: 0;
+}
+li{
+display: inline;
+font-size: 2vw;
+padding:0 13px;
+border-radius: 9px;
+border: 2px solid red;
+cursor: pointer;
+}
+
+header{
+padding: 25px;
+background-color: black;
+color: white;
+position: sticky;
+top: 0;
+border: 2px solid blue;
+border-radius: 9px;
+}
+.container{
+height: 200vh;
+background-color: red;
+}
+</code>
+</pre>
+</li>
+
+<li>
+Html of the Side Bar
+<pre class="language-html"><code>
+&lt;body&gt;
+&lt;div class="progressbar"&gt;&lt;/div&gt;
+&lt;div class="container"&gt;
+&lt;div class="sidebar "&gt;
+&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/1 home.html" target="blank"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/1 intro.html" target="blank"&gt;My Intro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/1 services.html" target="blank"&gt;Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/1 blog.html" target="blank"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/1 contact.html" target="blank"&gt;Contact Me&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</li>
+<li>
+Css of side Bar.
+<pre class="language-css"><code>
+&lt;style&gt;
+* {
+padding: 0;
+margin: 0;
+}
+.progressbar {
+height: 4px;
+background-color: brown;
+margin-bottom: 3px;
+margin-top: 1px;
+animation-name: load;
+animation-duration: 2s;
+}
+@keyframes load {
+0% {
+width: 0%;
+}
+50% {
+width: 50%;
+}
+100% {
+width: 100%;
+}
+}
+
+/* Start Styling */
+
+.container {
+display: flex;
+}
+.sidebar {
+width: 264px;
+background-color: rgb(230, 220, 220);
+height: 100vh;
+font-weight: bold;
+font-family: Arial, Helvetica;
+}
+.sidebar nav {
+padding: 40px;
+cursor: pointer;
+}
+.sidebar nav ul li {
+list-style: none;
+padding-bottom: 50px;
+font-size: 25px;
+}
+.sidebar nav ul li a {
+text-decoration: none;
+color: black;
+}
+&lt;/style&gt;
+</code></pre>
+</li>
+
+<li>
+GYM Website Clone
+<pre class="language-html css"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+&lt;title&gt;Fitness-GYM&lt;/title&gt;
+&lt;style&gt;
+* {
+margin: 0;
+padding: 0;
+}
+.progressbar {
+background-color: red;
+height:4px;
+margin-top: 1px;
+margin-bottom: 2px;
+animation-name: load;
+animation-duration: 2s;
+}
+@keyframes load {
+0% {
+width: 0%;
+}
+50% {
+width: 50%;
+}
+100%{
+width: 100%;
+}
+}
+.container {
+max-width: 80vw;
+}
+.navbar {
+display: flex;
+height: 60px;
+font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar li {
+list-style: none;
+margin: 0 15px;
+}
+.section1 {
+height: 45vh;
+}
+
+.box {
+margin: 25px 15px;
+padding: 6px 0;
+min-width: 20vw;
+border: 2px solid rgb(65, 155, 240);
+border-radius: 9px;
+font-size: 16px;
+font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+"Lucida Sans", Arial, sans-serif;
+text-align: center;
+}
+.box h2 {
+padding: 13px 0;
+font-size:25px;
+font-weight: bold;
+}
+.box ul {
+list-style: none;
+}
+.box ul li {
+text-align: center;
+margin:10px 0;
+}
+
+.plains ul{
+list-style: none;
+display:flex;
+margin-top: -15px;
+justify-content: center;
+font-weight: bold;
+}
+
+.plains ul li{
+
+font-size: 20px;
+margin: 20px 0;
+margin-left:60px;
+}
+.footer-container{
+height: 45px;
+margin:10px 0;
+background-color:rgb(103, 28, 103);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.bg-red {
+background-color: red;
+}
+.flex {
+display: flex;
+}
+.mx-auto {
+margin: auto;
+}
+.items-center {
+align-items: center;
+}
+.justify-center {
+justify-content: center;
+}
+.justify-between {
+justify-content: space-between;
+}
+.font-bold {
+font-weight: bold;
+}
+.font-size {
+font-size: 27px;
+}
+.cursor {
+cursor: pointer;
+}
+
+.topleft {
+width: 50%;
+}
+.topright {
+width: 50%;
+}
+.my-1 {
+margin: 10px 0;
+}
+.my-2 {
+margin-top: 70px;
+}
+.py-2 {
+padding: 0 13px;
+}
+.text-color {
+background-color: rgb(47, 130, 225);
+color: white;
+border: 2px solid black;
+border-radius: 30px;
+height: 30px;
+margin-top: 12px;
+padding: 2px 8px;
+}
+.btn {
+background-color: rgb(47, 130, 225);
+color: white;
+cursor: pointer;
+border: 2px solid black;
+border-radius: 6px;
+font-weight: bold;
+font-size: 12px;
+padding: 3px 10px;
+font-size: 15px;
+}
+.over-flow {
+overflow: hidden;
+height: 264px;
+padding: 0 50px;
+}
+.doumbel-png {
+width: 110px;
+margin-top: -70px;
+margin-left: 100px;
+}
+.font-family {
+font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* section2 start  */
+.section2 {
+padding: 0 63px;
+}
+.text-center {
+text-align: center;
+}
+
+.margin-top {
+margin: 20px 0;
+}
+.padding{
+margin-left: 120px;
+}
+
+
+/* section 3 start */
+.section3 {
+padding: 0 63px;
+height: 20vh;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;div class="progressbar"&gt;&lt;/div&gt;
+&lt;body&gt;
+&lt;div class="container mx-auto"&gt;
+&lt;header&gt;
+&lt;nav class="flex justify-between"&gt;
+&lt;div class="flex items-center font-bold font-size text-color"&gt;
+Abhishek-Fitness-GYM.
+&lt;/div&gt;
+&lt;ul class="navbar items-center cursor font-bold"&gt;
+&lt;li&gt;Home&lt;/li&gt;
+&lt;li&gt;About&lt;/li&gt;
+&lt;li&gt;Services&lt;/li&gt;
+&lt;li&gt;Contact Us&lt;/li&gt;
+&lt;button class="btn"&gt;Join Now&lt;/button&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;hr /&gt;
+&lt;/header&gt;
+
+&lt;main &gt;
+&lt;section class="section1"&gt;
+&lt;div class="flex"&gt;
+&lt;div class="topleft py-2 my-2"&gt;
+&lt;img class="doumbel-png" src="doumbel.png" alt="" /&gt;
+
+&lt;h1 class="my-1 font-family"&gt;
+The best fitness gym in the town is here.
+&lt;/h1&gt;
+&lt;p&gt;
+You are enjoying my fitness gym i hope fitness is very important
+in our daily life so you are use my gym and fit your body and
+word hard and mind fresh also .
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="topright over-flow"&gt;
+&lt;img src="gym.png" alt="" /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
+&lt;section class="section2"&gt;
+&lt;h1 class="text-center margin-top font-size font-bold"&gt;Pricing&lt;/h1&gt;
+&lt;p class="padding font-family"&gt;
+You are welcome on my website and i hope you are join my GYM classes and i will very low price to join my GYM classes and you are join my GYM.
+&lt;/p&gt;
+&lt;div class="boxes flex justify-center"&gt;
+&lt;div class="box"&gt;
+&lt;h2&gt;Free&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class="font-bold"&gt;₹00/&lt;/li&gt;
+&lt;li&gt;10 days Demo&lt;/li&gt;
+&lt;li&gt;2 hours gym&lt;/li&gt;
+&lt;li&gt;after 10 days pay.&lt;/li&gt;
+&lt;li&gt;&lt;button class="btn"&gt;Signup Now&lt;/button&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="box"&gt;
+&lt;h2&gt;Pro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class="font-bold"&gt;₹1000/Monthly&lt;/li&gt;
+&lt;li&gt;3 days Demo&lt;/li&gt;
+&lt;li&gt;Unlimited&lt;/li&gt;
+&lt;li&gt;after 3 days pay.&lt;/li&gt;
+&lt;li&gt;&lt;button class="btn"&gt;Register Now&lt;/button&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="box"&gt;
+&lt;h2&gt;Combo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class="font-bold"&gt;₹700/Monthly&lt;/li&gt;
+&lt;li&gt;No Demo&lt;/li&gt;
+&lt;li&gt;Time Limited&lt;/li&gt;
+&lt;li&gt;Pay Before join.&lt;/li&gt;
+&lt;li&gt;&lt;button class="btn"&gt;Join Now&lt;/button&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
+&lt;section class="section3"&gt;
+&lt;h1 class="text-center font-bold font-size margin-top"&gt;Compare Plains&lt;/h1&gt;
+&lt;div class="plains"&gt;
+&lt;ul&gt;
+&lt;li&gt;Free&lt;/li&gt;
+&lt;li&gt;Pro&lt;/li&gt;
+&lt;li&gt;Combo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/section&gt;
+&lt;hr /&gt;
+&lt;/main&gt;
+&lt;/div&gt;
+&lt;footer&gt;
+&lt;div class="footer-container"&gt;
+&lt;h2&gt;Copyright &copy; Abhishek-Fitness-GYM&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</code></pre>
+</li>
+
+<li>
+Myntra website clone.
+<pre class="language-html css"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+&lt;title&gt;Myntra-Search&lt;/title&gt;
+&lt;link rel="stylesheet" href="style.css" /&gt;
+&lt;link rel="stylesheet" href="utils.css" /&gt;
+&lt;style&gt;
+.flex {
+display: flex;
+}
+.list-style {
+list-style: none;
+}
+.justify-content {
+justify-content: center;
+}
+.space-between {
+justify-content: space-between;
+}
+.items-center {
+align-items: center;
+}
+.bg-red {
+background-color: red;
+}
+.font-weight {
+font-weight: bold;
+}
+.margin-left{
+margin-left:17px;
+}
+.cursor-pointer{
+cursor: pointer;
+}
+.section1{
+background-color: rgb(244, 229, 229);
+}
+.home-image{
+width:950px;
+padding-left: 5vw;
+margin-top:20px;
+
+}
+.itemImg{
+margin: 8px;
+border-radius: 5px;
+border: 1px solid rgb(2, 2, 2);
+width: 12vw;
+}
+* {
+margin: 0;
+padding: 0;
+}
+header{
+position: sticky;
+top: 0;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.5) 1.9px 1.9px 2.6px;
+
+}
+.container {
+max-width: 89vw;
+padding: 0 8vw;
+align-items: center;
+}
+ul li {
+margin-left: 30px;
+font-weight: bold;
+cursor: pointer;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+font-size:15px;
+}
+input {
+height: 20px;
+width: 180px;
+color: black;
+border: 1px solid black;
+border-radius: 4px;
+background-color: rgb(255, 255, 255);
+}
+footer{
+height: 48px;
+background-color: rgb(132, 0, 255);
+color: white;
+margin: 5px 0;
+justify-content: center;
+display: flex;
+align-items: center;
+font-size: 25px;
+font-weight: bold;
+}      
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;header class="container"&gt;
+&lt;nav class="flex space-between"&gt;
+&lt;div class="left flex"&gt;
+&lt;img src="myntra.png" alt="" width="85px" /&gt;
+&lt;ul class="flex list-style items-center"&gt;
+&lt;li&gt;MEN&lt;/li&gt;
+&lt;li&gt;WOMEN&lt;/li&gt;
+&lt;li&gt;KIDS&lt;/li&gt;
+&lt;li&gt;HOME & LIVING&lt;/li&gt;
+&lt;li&gt;BEAUTY&lt;/li&gt;
+&lt;li&gt;STUDIO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="right flex items-center"&gt;
+&lt;input type="text" placeholder=" Search for products & brands" /&gt;
+&lt;div class="profile margin-left font-weight cursor-pointer"&gt;
+Profile
+&lt;/div&gt;
+&lt;div class="wishlist margin-left font-weight cursor-pointer"&gt;
+Wishlist
+&lt;/div&gt;
+&lt;div class="bag margin-left font-weight cursor-pointer"&gt;Bag&lt;/div&gt;
+&lt;/div&gt;
+&lt;/nav&gt;
+&lt;/header&gt;
+&lt;section class="container section1"&gt;
+&lt;img class="home-image" src="home.png" alt="" /&gt;
+&lt;img class="home-image" src="2image.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="2item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;img class="itemImg" src="item.png" alt="" /&gt;
+&lt;/section&gt;
+&lt;footer&gt;
+Copyright &copy; Myntra.com
+&lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</li>
+
+<li>
+Box shadow & scrolling page.
+<pre class="language-css"><code>
+box-shadow: rgba(0, 0, 0, 0.5) 1.9px 1.9px 2.6px;
+scroll-behavior: smooth;
+overflow-x: hidden;
+</code></pre>
+</li>
+
+<li>
+Bootstrap.com use navbar.
+<pre class="language-html css javascript"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8" /&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;
+&lt;title&gt;Stationary shop&lt;/title&gt;
+&lt;link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+crossorigin="anonymous"
+/&gt;
+&lt;link rel="stylesheet" href="1 utils.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- navbar start --&gt;
+
+&lt;nav class="navbar navbar-expand-lg bg-light"&gt;
+&lt;div class="container-fluid"&gt;
+&lt;a class="navbar-brand" href="#"&gt;Navbar&lt;/a&gt;
+&lt;button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarSupportedContent"
+aria-controls="navbarSupportedContent"
+aria-expanded="false"
+aria-label="Toggle navigation"
+&gt;
+&lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+&lt;/button&gt;
+&lt;div class="collapse navbar-collapse" id="navbarSupportedContent"&gt;
+&lt;ul class="navbar-nav me-auto mb-2 mb-lg-0"&gt;
+&lt;li class="nav-item"&gt;
+&lt;a class="nav-link active" aria-current="page" href="#"&gt;Home&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="nav-item"&gt;
+&lt;a class="nav-link" href="#"&gt;About&lt;/a&gt;
+&lt;/li&gt;
+
+&lt;li class="nav-item dropdown"&gt;
+&lt;a
+class="nav-link dropdown-toggle"
+href="#"
+role="button"
+data-bs-toggle="dropdown"
+aria-expanded="false"
+&gt;
+Services
+&lt;/a&gt;
+&lt;ul class="dropdown-menu"&gt;
+&lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Stationary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Xerox&lt;/a&gt;&lt;/li&gt;
+
+  &lt;a class="dropdown-item" href="#"&gt;Books&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class="nav-item"&gt;
+&lt;a class="nav-link disabled"&gt;Disabled&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;form class="d-flex" role="search"&gt;
+&lt;input
+class="form-control me-2"
+type="search"
+placeholder="Search"
+aria-label="Search"
+/&gt;
+&lt;button class="btn btn-outline-success" type="submit"&gt;
+Search
+&lt;/button&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+crossorigin="anonymous"
+&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</li>
+
+<!--java script code. -->
+<li>
+All java script Codes.
+<pre class="language-js"><code>
+
+
+//1.ways to print java script in website page.
+
+alert("Do you want allow this website.");
+confirm("Allow this websites.");
+document.write("hello world");
+
+//2. API (Application Programme Interface.)
+console.log("hello world", 6 + 4, "Another log");
+console.warn("this is warning");
+console.error("this is an error");
+console.assert("this is a assert");
+
+//3.Java script let variables.
+let number1 = 34;
+let number2 = 56;
+console.log(number1 + number2);
+
+//4.Data types in Java script.
+
+//a. Numbers
+let num1 = 455;
+let num2 = 23.54;
+console.log(num1 + num2);
+
+//b.Strings.
+let str1 = "this is a  string.";
+let str2 = "this is also a string.";
+document.write(str1);
+document.write(str1 + str2);
+console.log(str1);
+console.log(str2);
+console.log(str1 + str2);
+console.log(str1.length);
+console.log(str2.length);
+console.log(str1 + str2.length);
+console.log("this is a first string", str1, "this is a second string", str2);
+
+//c.Booleans.
+let a1 = true;
+let b1 = false;
+console.log(a1);
+console.log(b1);
+
+//d.Undefine.
+let und;
+console.log(und);
+
+//e.Null.
+let n = null;
+console.log(n);
+
+//f.Objects .object is a standalone entity with properties and types.
+let marks = {
+ravi: 34,
+harry: 45,
+sumit: 70.45,
+};
+console.log(marks);
+
+//g.Arrays.
+let arr = [1, 3, 4, 5, "abhi", 34.54];
+console.log(arr);
+console.log(arr[4]);
+
+//5.Operators.
+
+//a.Arithmetic Operators.
+let a = 100;
+let b = 10;
+console.log("The value of a + b is :", a + b);
+console.log("The value of a - b is :", a - b);
+console.log("The value of a / b is :", a / b);
+console.log("The value of a * b is :", a * b);
+
+//b.Assignment Operators.
+let c = b;
+console.log(c);
+
+//c.Comparison Operators.
+let x = 30;
+let y = 35;
+console.log(x == y);
+console.log(x >= y);
+console.log(x <= y);
+console.log(x > y);
+console.log(x < y);
+
+//d. Logical Operators.
+
+//logical AND.
+console.log(true && true);
+console.log(false && false);
+console.log(true && false);
+console.log(false && true);
+
+//logical OR.
+console.log(true || true);
+console.log(false || false);
+console.log(true || false);
+console.log(false || true);
+
+//logical NOT.
+console.log(!true);
+console.log(!false);
+
+//6.functions in Java script. functions is a first class object because they can be passed to other functions.
+
+function avg(a, b) {
+c = (a + b) / 2;
+return c;
+}
+c1 = avg(23, 35);
+c2 = avg(35, 123);
+console.log(c1);
+console.log(c2);
+
+// function.
+function percent(a, b, c, d, e, f) {
+d = (a + b + c + d + e + f) / 6;
+return d;
+}
+e = percent(45, 56, 23, 58, 34, 90);
+console.log(e);
+
+//7. Conditionals in Java script.
+
+let age = prompt("what is your age to vote them.");
+if (age >= 18) {
+console.log("You are eligible for a vote ❤️ ❤️.");
+} else {
+console.log(
+"You are not eligible for a vote because your age are not exists 😢 😢."
+);
+}
+//prompt.
+
+let z = prompt("what is your age?");
+if (z >= 10 && z <= 20) {
+console.log("your age lies between 10 and 20.");
+} else {
+console.log("Your age doesn't  lies between 10 and 20. ");
+}
+//8.Loops in Java script.
+
+//a. For loops.
+let youArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < youArr.length; i++) {
+if (i == 6) {
+// break;
+continue;
+}
+console.log(arr[i]);
+}
+
+
+
+//b. forEach loops.
+let arr0 = [1, 3, 5, 7, 9];
+arr0.forEach(function (element) {
+console.log(element);
+});
+
+//c. While loops.
+let arr1 = [0, 10, 20, 30, 40];
+let j = 0;
+while (j < arr1.length) {
+console.log(arr1[j]);
+j++;
+}
+
+////d.Do-While-loops.
+let arr2 = [2, 4, 6, 8, 10, 12, 14];
+let k = 0;
+do {
+console.log(arr2[k]);
+k++;
+} while (k < arr2.length);
+
+//9.  Array Methods in Java script.
+let myArr = [1, 33, 45, "harry", 34.34, null, true];
+console.log(myArr.length);
+myArr.push("abhi");
+console.log(myArr);
+myArr.pop();
+console.log(myArr);
+myArr.shift();
+myArr.unshift("sumit");
+console.log(myArr);
+
+//10.String Method in Java script.
+
+let myString = "Harry is a good boy hy you are a good person.";
+console.log(myString);
+console.log(myString.length);
+console.log(myString.indexOf("good"));
+console.log(myString.lastIndexOf("good"));
+console.log(myString.slice(0, 37));
+console.log(myString.replace("Harry", "abhi"));
+
+//11.Date and Time;
+let myDate = new Date();
+console.log(myDate);
+console.log(myDate.getTime());
+console.log(myDate.getFullYear());
+console.log(myDate.getMonth());
+console.log(myDate.getDay());
+console.log(myDate.getMinutes());
+console.log(myDate.getHours());
+
+//12. DOM (Document Object Model) Manipulation.
+let elem = document.getElementById("click");
+console.log(elem);
+
+let elemClass = document.getElementsByClassName("container");
+console.log(elemClass);
+
+elemClass[0].classList.add("bg-primary");
+elemClass[0].classList.remove("bg-primary");
+console.log(elemClass[0].innerHTML);
+console.log(elemClass[0].innerText);
+
+let tagName = document.getElementsByTagName("button");
+console.log(tagName);
+
+let tn = document.getElementsByTagName("div");
+console.log(tn);
+createdElement = document.createElement("p");
+createdElement.innerText = "this is a created para.";
+tn[0].appendChild(createdElement);
+
+//selecting Query.
+let sel = document.querySelector(".container");
+console.log(sel);
+
+let sel1 = document.querySelectorAll(".container");
+console.log(sel1);
+
+//function in java script.
+function clicked() {
+console.log("The button was clicked.");
+}
+window.onload = function () {
+console.log("The document was loaded.");
+};
+
+//13.Events in java script.
+firstContainer.addEventListener("click", function () {
+console.log("clicked on container.");
+});
+firstContainer.addEventListener("clicked", function () {
+console.log("clicked another time of this container");
+});
+firstContainer.addEventListener("mouseover", function () {
+console.log("mouse in  of the first container.");
+});
+firstContainer.addEventListener("mouseout", function () {
+console.log("mouse out of the first container.");
+});
+firstContainer.addEventListener("mouseup", function () {
+console.log("mouse up of the first container.");
+});
+firstContainer.addEventListener("mousedown", function () {
+console.log("mouse down of the first container.");
+});
+
+//addEventListener in java script.
+secondContainer.addEventListener("click", function () {
+console.log("clicked on second container.");
+});
+secondContainer.addEventListener("mouseover", function () {
+console.log("mouse over in  second container.");
+});
+secondContainer.addEventListener("mouseout", function () {
+console.log("mouse out in second container.");
+});
+
+let prevHTML = document.querySelectorAll(".container")[1].innerHTML;
+secondContainer.addEventListener("mouseup", function () {
+document.querySelectorAll(".container")[1].innerHTML = prevHTML;
+console.log("mouse up in second container.");
+});
+secondContainer.addEventListener("mousedown", function () {
+document.querySelectorAll(".container")[1].innerHTML =
+"<b> We have clicked</b>";
+console.log("mouse down in second container.");
+});
+
+//14.Arrow Functions in java script.
+sum = (a, b) => {
+return a + b;
+};
+
+let logkaro = () => {
+console.log("I am your log.");
+};
+//15.SetTimeout and Interval.
+clr = setTimeout(logkaro, 2000);
+clr1 = setInterval(logkaro, 5000);
+
+//16. Local storage in java script.
+
+localStorage.setItem("name", "abhi");
+localStorage.getItem("name");
+
+//17.JSON (Java Script Object Notation.)
+
+obj = { name: "harry", length: 1 };
+jso = JSON.stringify(obj);
+console.log(typeof jso);
+console.log(jso);
+
+</code>
+</pre>
+</li>
+
+<!-- c++ code  -->
+<li>
+Basic Codes of C++ Language .
+<pre class="language-cpp">
+<code>
+#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+// fuction hai
+int add(int f, int g)
+{
+int v;
+v = f + g;
+return v;
+}
+// create a Public class name,work,address and salary .
+class Employee
+{
+public:
+string name;
+string work;
+int salary;
+string address;
+};
+int main()
+{
+// else if statement
+int age;
+cout &lt;&lt; "enter your age =";
+cin &gt;&gt; age;
+if (age > 100 || age < 1)
+{
+cout &lt;&lt; "You enter Invalid age:"&lt;&lt;endl;
+}
+
+else if (age >= 18)
+{
+cout &lt;&lt; "you are eligible for a vote:"&lt;&lt;endl;
+}
+else
+{
+cout &lt;&lt; "you are not eligible for a vote"&lt;&lt;endl;
+}
+
+// switch case
+int age1;
+cout &lt;&lt; "enter your age" &lt;&lt; endl;
+cin &gt;&gt; age1;
+switch (age1)
+{
+case 13:
+cout &lt;&lt; "your age 13 years old" &lt;&lt; endl;
+break;
+case 16:
+cout &lt;&lt; "your age 16 years old" &lt;&lt; endl;
+break;
+case 19:
+cout &lt;&lt; "your age 19 years old" &lt;&lt; endl;
+
+break;
+
+default:
+cout &lt;&lt; "you are not 13,16 and 19 years old"&lt;&lt;endl;
+}
+
+// loops in c++ language.
+// while loops
+int index = 0;
+int z4;
+cout &lt;&lt; "enter the number =";
+cin &gt;&gt; z4;
+while (index < z4)
+{
+cout &lt;&lt; "we are at index number" &lt;&lt; index &lt;&lt; endl;
+index++;
+}
+
+// do while loops
+int x3 = 0;
+int y3;
+cout &lt;&lt; "enter the number =";
+cin &gt;&gt; y3;
+
+do
+
+{
+cout &lt;&lt; "we are index number is =" &lt;&lt; x3&lt;&lt; endl;
+x3++;
+} while (x3 < y3);
+
+// for loops.
+int c;
+cout&lt;&lt;"enter the number = ";
+cin&gt;&gt;c;
+for (int i = 0; i< c; i++)
+{
+cout &lt;&lt; "the value of i is = " &lt;&lt; i &lt;&lt; endl;
+}
+
+// function in c++ language
+
+int q, r;
+cout &lt;&lt; "enter the first number ="&lt;&lt;endl;
+cin &gt;&gt; q;
+cout &lt;&lt; "enter the second number ="&lt;&lt;endl;
+cin &gt;&gt; r;
+cout &lt;&lt; "the function returned =" &lt;&lt; add(q, r)&lt;&lt;endl;
+
+// array in c++ language
+
+int arr[]={3,4,5};////array representation
+cout&lt;&lt;arr[2];
+
+int marks[6];
+for (int t = 0; t < 6; t++)
+{
+cout &lt;&lt; "enter the student marks of" &lt;&lt; t &lt;&lt; "th student ="&lt;&lt;endl;
+cin &gt;&gt; marks[t];
+}
+for (int t = 0; t < 6; t++)
+
+{
+cout &lt;&lt; "Marks of" &lt;&lt; t &lt;&lt; "th student is=" &lt;&lt; marks[t] &lt;&lt; endl;
+}
+// two dimensional array
+
+int arr2d[2][3] = {{2, 1, 3}, {2, 5, 7}};
+for (int k = 0; k < 2; k++)
+{
+for (int o = 0; o < 3; o++)
+{
+cout &lt;&lt; "The value at " &lt;&lt; k &lt;&lt; "," &lt;&lt; o &lt;&lt; "is =" &lt;&lt; arr2d[k][o] &lt;&lt; endl;
+}
+}
+
+// typecasting in c++ language
+int e = 345;
+cout &lt;&lt; (float)e&lt;&lt;endl;
+int y = 23.34;
+cout &lt;&lt; (int)y&lt;&lt;endl;
+int y1 = 234;
+string y2 = to_string(y1);
+cout&lt;&lt;y2 &lt;&lt;endl;
+
+// some string function are used in c++ language.
+string name = "abhishek";
+string lastName = "chouhan";
+cout &lt;&lt; "the name is = " &lt;&lt; name &lt;&lt; endl;
+cout &lt;&lt; "the length of name is = " &lt;&lt; name.length() &lt;&lt; endl;
+cout &lt;&lt; "the  name is = " &lt;&lt; name.substr(0, 4) &lt;&lt; endl;
+cout &lt;&lt; "the name is = " &lt;&lt; name.substr(0, 2) &lt;&lt; endl;
+cout &lt;&lt; "the name is = " &lt;&lt; name.substr(0, 8) &lt;&lt; endl;
+cout &lt;&lt; "the full name is = " &lt;&lt; name + lastName &lt;&lt; endl;
+
+// Access Modifier Public,Private and Protected.
+//Created public class and use in a Object.
+Employee ab;
+ab.name = "Abhishek chouhan";
+ab.work = "Microsoft Company";
+ab.salary = 20000000;
+ab.address = " form Village Arka,dist.Raisen,(M.P.) ";
+cout &lt;&lt; "The name of the Employee is = " &lt;&lt; ab.name &lt;&lt; endl
+&lt;&lt; ab.name &lt;&lt; " works in the " &lt;&lt; ab.work &lt;&lt; endl
+&lt;&lt; " The salary of the " &lt;&lt; ab.name &lt;&lt; " is =" &lt;&lt; ab.salary &lt;&lt; endl
+&lt;&lt; ab.name &lt;&lt; ab.address &lt;&lt; endl;
+
+Employee abc;
+abc.name = "Sumit chouhan";
+abc.work = "Flipcard Company";
+abc.salary = 20000000;
+abc.address = "I am form Village Arka,dist.Raisen,(M.P.)";
+cout &lt;&lt; "The name of the Employee is = " &lt;&lt; abc.name &lt;&lt; endl
+&lt;&lt; abc.name &lt;&lt; " works in the " &lt;&lt; abc.work &lt;&lt; endl
+&lt;&lt; " The salary of the " &lt;&lt; abc.name &lt;&lt; " is =" &lt;&lt; abc.salary &lt;&lt; endl
+&lt;&lt; abc.name &lt;&lt; abc.address &lt;&lt; endl;
+
+
+
+return 0;
+}             
+
+</code>
+</pre>
+</li>
+<li>
+All HTML Basic Tags.
+<pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;All HTML Tags&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- Document Structure Tags --&gt;
+&lt;header&gt;Header Section&lt;/header&gt;
+&lt;nav&gt;Navigation Menu&lt;/nav&gt;
+&lt;main&gt;Main Content&lt;/main&gt;
+&lt;section&gt;Section Content&lt;/section&gt;
+&lt;article&gt;Article Content&lt;/article&gt;
+&lt;aside&gt;Aside Content&lt;/aside&gt;
+&lt;footer&gt;Footer Section&lt;/footer&gt;
+
+&lt;!-- Text Formatting Tags --&gt;
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;br&gt; &lt;!-- Line Break --&gt;
+&lt;hr&gt; &lt;!-- Horizontal Rule --&gt;
+
+&lt;strong&gt;This is bold text.&lt;/strong&gt;
+&lt;em&gt;This is italicized text.&lt;/em&gt;
+&lt;mark&gt;This is highlighted text.&lt;/mark&gt;
+&lt;small&gt;This is small text.&lt;/small&gt;
+&lt;del&gt;This text is deleted.&lt;/del&gt;
+&lt;ins&gt;This text is inserted.&lt;/ins&gt;
+&lt;sub&gt;Subscript text.&lt;/sub&gt;
+&lt;sup&gt;Superscript text.&lt;/sup&gt;
+&lt;blockquote&gt;Blockquote content.&lt;/blockquote&gt;
+&lt;q&gt;Inline quote.&lt;/q&gt;
+
+&lt;!-- Hyperlink Tags --&gt;
+&lt;a href="#"&gt;This is a hyperlink.&lt;/a&gt;
+
+&lt;!-- List Tags --&gt;
+&lt;ul&gt;
+&lt;li&gt;Unordered List Item 1&lt;/li&gt;
+&lt;li&gt;Unordered List Item 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ordered List Item 1&lt;/li&gt;
+&lt;li&gt;Ordered List Item 2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;Definition Term&lt;/dt&gt;
+&lt;dd&gt;Definition Description&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;!-- Image Tag --&gt;
+&lt;img src="image.jpg" alt="Image description"&gt;
+
+&lt;!-- Table Tags --&gt;
+&lt;table&gt;
+&lt;caption&gt;Table Caption&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+    &lt;th&gt;Header 1&lt;/th&gt;
+    &lt;th&gt;Header 2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+    &lt;td&gt;Data 1&lt;/td&gt;
+    &lt;td&gt;Data 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tfoot&gt;
+&lt;tr&gt;
+    &lt;td&gt;Footer 1&lt;/td&gt;
+    &lt;td&gt;Footer 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;!-- Form Tags --&gt;
+&lt;form action="#"&gt;
+&lt;label for="name"&gt;Name:&lt;/label&gt;
+&lt;input type="text" id="name" name="name"&gt;&lt;br&gt;
+
+&lt;label for="email"&gt;Email:&lt;/label&gt;
+&lt;input type="email" id="email" name="email"&gt;&lt;br&gt;
+
+&lt;label for="message"&gt;Message:&lt;/label&gt;
+&lt;textarea id="message" name="message"&gt;&lt;/textarea&gt;&lt;br&gt;
+
+&lt;label for="cars"&gt;Choose a car:&lt;/label&gt;
+&lt;select id="cars" name="cars"&gt;
+&lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+&lt;option value="saab"&gt;Saab&lt;/option&gt;
+&lt;/select&gt;&lt;br&gt;
+
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;
+
+&lt;!-- Media Tags --&gt;
+&lt;audio controls&gt;
+&lt;source src="audio.mp3" type="audio/mpeg"&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+
+&lt;video controls&gt;
+&lt;source src="video.mp4" type="video/mp4"&gt;
+Your browser does not support the video element.
+&lt;/video&gt;
+
+&lt;!-- Embed Tags --&gt;
+&lt;iframe src="https://www.example.com" title="Embedded page"&gt;&lt;/iframe&gt;
+
+&lt;!-- Script Tags --&gt;
+&lt;script&gt;
+console.log("This is a script tag.");
+&lt;/script&gt;
+
+&lt;!-- Style Tags --&gt;
+&lt;style&gt;
+body {
+font-family: Arial, sans-serif;
+}
+&lt;/style&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+</code></pre>
+</li>
+
+</ol>
+</div>
+
+
+
+
+</body>
+</html>
